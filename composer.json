@@ -1,5 +1,5 @@
 {
-    "name": "zhen.kib/shop-module",
+    "name": "kib-ev/shop-module",
     "description": "Shop module",
     "authors": [
         {
@@ -9,6 +9,9 @@
     ],
     "extra": {
         "laravel": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            },
             "providers": [
                 "Modules\\Shop\\Providers\\ShopServiceProvider"
             ],
