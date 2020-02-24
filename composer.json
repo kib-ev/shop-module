@@ -9,9 +9,6 @@
     ],
     "extra": {
         "laravel": {
-            "branch-alias": {
-                "dev-master": "1.2-dev"
-            },
             "providers": [
                 "Modules\\Shop\\Providers\\ShopServiceProvider"
             ],
