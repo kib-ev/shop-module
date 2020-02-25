@@ -17,4 +17,8 @@ class ProductRepository extends BaseShopRepository {
     public function getWhereId($id) {
         return $this->getModel()->where('id', $id)->first();
     }
+
+    public function getWhereName($name) {
+        return $this->getModel()->where('name', $name)->first();
+    }
 }
